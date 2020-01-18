@@ -1,6 +1,6 @@
 Name:           perl-B-Lint
 Version:        1.17
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Perl lint
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -60,6 +60,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.17-3
+- Mass rebuild 2013-12-27
+
 * Tue May 28 2013 Petr Pisar <ppisar@redhat.com> - 1.17-2
 - Correct typo in dependencies
 
